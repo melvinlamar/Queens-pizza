@@ -53,3 +53,12 @@ $("table").hide();
 
     $(".additional-info h3 span").html(grandTotal);
   });
+
+  $(".btn.complete").click(function() {
+    var location = $(".additional-info .location input").val();
+    $(".additional-info h4").show();
+    $(".additional-info .location").hide();
+    $(".additional-info h4 span").html(location);
+  });
+
+});
