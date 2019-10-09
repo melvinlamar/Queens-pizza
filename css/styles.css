@@ -7,5 +7,11 @@
     left:46%;
     justify-content: center;
   }
-
- 
+  #menu{
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    background-color: rgba(29, 29, 41, 0.226);
+  }
+ body {
+background-color: rgba(0, 0, 0, 0.452);
+ }
