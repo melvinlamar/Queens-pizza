@@ -11,3 +11,6 @@ $("table").hide();
     var order = 1;
     var grandTotal = 0;
   
+    $("table").show();
+  $(".additional-buttons").show();
+  $(".btn.order").hide();
