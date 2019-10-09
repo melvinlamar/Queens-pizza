@@ -14,3 +14,16 @@ $("table").hide();
     $("table").show();
   $(".additional-buttons").show();
   $(".btn.order").hide();
+
+  $("#size").html($(".size option:selected").text() + " - " + sizeOfPizza);
+  $("#toppings").html($(".toppings option:selected").text() + " - " + toppingsOfPizza);
+  $("#crust").html($(".crust option:selected").text() + " - " + crustOfPizza);
+  $("#total").html(total);
+
+  function Pizza(size, toppings, crust, total, orderNo) {
+    this.size = size;
+    this.toppings = toppings;
+    this.crust = crust;
+    this.total = total;
+    this.orderNo = orderNo;
+  }
