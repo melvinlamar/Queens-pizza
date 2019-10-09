@@ -17,3 +17,19 @@ background-color: rgba(25, 83, 241, 0.568);
   .container{
     padding-top: 15px;
   }
+  .container h5{
+    font-style: italic;
+    color: rgb(4, 5, 4);  
+  }
+  .sub{
+    text-align: center;
+    padding-top: 50px
+  }
+  .order {
+    text-align: center;
+    padding-top: 30px;
+    font-style: initial;
+  }
+  .od{
+    padding-top: 20px;
+  }
