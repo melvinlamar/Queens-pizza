@@ -10,8 +10,10 @@
   #menu{
     font-family: 'Pacifico', cursive;
     font-size: 28px;
-    background-color: rgba(29, 29, 41, 0.226);
   }
- body {
-background-color: rgba(0, 0, 0, 0.452);
- }
+  body {
+background-color: rgba(25, 83, 241, 0.568);
+  }
+  .container{
+    padding-top: 15px;
+  }
