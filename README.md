@@ -4,9 +4,10 @@ the webpage application is an online platform where cutomers can order pizza acc
 ## Behaivour Driven Development
 When the "Order" button is clicked it adds the clicked items to the to price table and once the user clicks on the checkout button and puts in their location the application informs him or her of successful submission.
 ## steps to visit the website
-To visit this website one needs a web browser
-An active internet
-
+*To visit this website one needs a web browser
+*An active internet
+*The link to the website is provided below
+*https://melvinlamar.github.io/Queens-pizza/
 ## author information
 Melvin muriithi is a  junior software developer currenly learning at Moringa school.
 ## Known Bugs
