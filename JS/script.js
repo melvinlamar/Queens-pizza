@@ -43,3 +43,13 @@ $("table").hide();
 
     $("#pizza").append(newRow);
   });
+
+  $(".btn.check-out").click(function() {
+    $(".btn.add-pizza").hide();
+    $(".btn.check-out").hide();
+    $(".additional-info").show();
+    $(".additional-info .location").hide();
+    grandTotal = grandTotal + total;
+
+    $(".additional-info h3 span").html(grandTotal);
+  });
